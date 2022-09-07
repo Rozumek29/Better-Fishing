@@ -1,0 +1,34 @@
+# Prefix before every message from plugin
+prefix: '&7[&aBetter Fishing&7] '
+# Available languages: en - english, pl - polish
+language: 'en'
+
+fishes:
+  # Example fish template
+  0:
+    #Name of fish.
+    name: 'Salmon'
+    # COMMON | UNCOMMON | RARE | EPIC | LEGENDARY
+    rarity: 'COMMON'
+    # Type of fish in minecraft ( COD | SALMON | PUFFERFISH | TROPICAL_FISH )
+    type: 'SALMON'
+    # 1.0 = 100%, 0.8 = 80% ect...
+    chance: 0.8
+    # Min and max weight of fish in grams. 1000 grams = 1 kg.
+    minWeight: 150
+    maxWeight: 300
+    # For example if your fish weight 150grams and price per gram is 0.1 then price of fish will be 15$.
+    pricePerGram: 0.1
+    # Min and max amount of exp that player will get from catching this fish.
+    minExp: 1
+    maxExp: 20
+  1:
+      name: 'Catfish'
+      rarity: 'COMMON'
+      type: 'COD'
+      chance: 0.6
+      minWeight: 1000
+      maxWeight: 3000
+      pricePerGram: 0.3
+      minExp: 10
+      maxExp: 50
