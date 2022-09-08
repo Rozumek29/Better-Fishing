@@ -1,3 +1,4 @@
 lang-info: "&aLanguage version: &eEnglish"
 loading-fishes: "&aLoading fish from configuration..."
 loaded-fishes: '&aLoaded &e{0} &afishes from configuration!'
+no-vault: "&cVault plugin not found! Plugin will be disabled!"

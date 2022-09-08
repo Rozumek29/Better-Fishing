@@ -3,3 +3,5 @@ version: '${project.version}'
 main: com.github.rozumek29.betterfishing.BetterFishing
 api-version: 1.19
 authors: [ Rozumek29 ]
+softdepend:
+  - Vault

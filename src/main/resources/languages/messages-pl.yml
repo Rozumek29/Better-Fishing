@@ -1,3 +1,4 @@
 lang-info: "&aWersja językowa: &ePolski"
 loading-fishes: "&aŁadowanie ryb z konfiguracji..."
 loaded-fishes: '&aWczytano &e{0} &aryb z konfiguracji!'
+no-vault: "&cNie znaleziono pluginu Vault! Plugin zostanie wyłączony!"
